@@ -1,14 +1,20 @@
+//VAR EXPRESS
 const express = require("express");
 const server = express();
+//VAR CREATE ROUTE
 const Router = express.Router();
+//VAR REQUIRE API.JS
 const api = require('../api');
 
+//ROUTES
 Router.get('/', (req,res) => {res.render('home')});
 
 Router.post('/poke', async (req,res) => {
 
+    //REQ BODY
     let name = req.body.name.toLowerCase();
     
+    //API CONFIG
     try{
         const { data } = await api.get(`${name}`);
         const spritfront = `<img src="${data.sprites.front_default}">`
