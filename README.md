@@ -1,1 +1,1 @@
-<img src="https://c.tenor.com/wS6cqQoMOW8AAAAC/pokemon.gif">
+<img src="./routes/src/pokedex.gif>
