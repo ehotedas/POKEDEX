@@ -20,4 +20,8 @@
         <img src="https://github.com/ehotedas/POKEDEX/blob/'main'/public/img/html.png">
 </p>
 
+<h1 align="center"> API UTILIZADA </h1>
+
+<p align="center"> https://pokeapi.co/ </p>
+
 <p align="center"> <img src="https://github.com/ehotedas/POKEDEX/blob/'main'/public/img/interface.gif"> </p>
